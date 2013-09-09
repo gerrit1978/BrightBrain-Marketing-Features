@@ -40,10 +40,10 @@ function bb_default_content_menu_default_menu_links() {
     'expanded' => 0,
     'weight' => -49,
   );
-  // Exported menu link: main-menu:node/4
-  $menu_links['main-menu:node/4'] = array(
+  // Exported menu link: main-menu:node/5
+  $menu_links['main-menu:node/5'] = array(
     'menu_name' => 'main-menu',
-    'link_path' => 'node/4',
+    'link_path' => 'node/5',
     'router_path' => 'node/%',
     'link_title' => 'Over Ons',
     'options' => array(
@@ -56,10 +56,10 @@ function bb_default_content_menu_default_menu_links() {
     'expanded' => 0,
     'weight' => -48,
   );
-  // Exported menu link: main-menu:node/6
-  $menu_links['main-menu:node/6'] = array(
+  // Exported menu link: main-menu:node/3
+  $menu_links['main-menu:node/3'] = array(
     'menu_name' => 'main-menu',
-    'link_path' => 'node/6',
+    'link_path' => 'node/3',
     'router_path' => 'node/%',
     'link_title' => 'Contact',
     'options' => array(
@@ -72,10 +72,10 @@ function bb_default_content_menu_default_menu_links() {
     'expanded' => 0,
     'weight' => 0,
   );
-  // Exported menu link: menu-service-menu:node/3
-  $menu_links['menu-service-menu:node/3'] = array(
+  // Exported menu link: menu-service-menu:node/4
+  $menu_links['menu-service-menu:node/4'] = array(
     'menu_name' => 'menu-service-menu',
-    'link_path' => 'node/3',
+    'link_path' => 'node/4',
     'router_path' => 'node/%',
     'link_title' => 'Algemene Voorwaarden',
     'options' => array(
@@ -88,10 +88,10 @@ function bb_default_content_menu_default_menu_links() {
     'expanded' => 0,
     'weight' => 0,
   );
-  // Exported menu link: menu-service-menu:node/5
-  $menu_links['menu-service-menu:node/5'] = array(
+  // Exported menu link: menu-service-menu:node/6
+  $menu_links['menu-service-menu:node/6'] = array(
     'menu_name' => 'menu-service-menu',
-    'link_path' => 'node/5',
+    'link_path' => 'node/6',
     'router_path' => 'node/%',
     'link_title' => 'Privacy & Disclaimer',
     'options' => array(
