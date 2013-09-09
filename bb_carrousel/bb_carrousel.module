@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the BB Carrousel feature.
+ */
+
+include_once 'bb_carrousel.features.inc';
