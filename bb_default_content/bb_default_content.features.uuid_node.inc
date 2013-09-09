@@ -25,7 +25,7 @@ function bb_default_content_uuid_features_default_content() {
   'tnid' => 0,
   'translate' => 0,
   'uuid' => '6949ca4d-8fa5-43a3-9485-d531e7180e68',
-  'revision_uid' => 1,
+  'revision_uid' => 0,
   'body' => array(),
   'rdf_mapping' => array(
     'rdftype' => array(
@@ -92,6 +92,111 @@ function bb_default_content_uuid_features_default_content() {
 );
   $nodes[] = array(
   'uid' => 1,
+  'title' => 'Contact',
+  'log' => '',
+  'status' => 1,
+  'comment' => 2,
+  'promote' => 1,
+  'sticky' => 0,
+  'vuuid' => '3480c260-4dc4-4ca8-b471-e88c60ece276',
+  'type' => 'webform',
+  'language' => 'nl',
+  'created' => 1378757437,
+  'tnid' => 0,
+  'translate' => 0,
+  'uuid' => '6b9721f0-2e5b-4f8a-accf-fe4acd6eb3b3',
+  'revision_uid' => 1,
+  'body' => array(),
+  'rdf_mapping' => array(
+    'rdftype' => array(
+      0 => 'sioc:Item',
+      1 => 'foaf:Document',
+    ),
+    'title' => array(
+      'predicates' => array(
+        0 => 'dc:title',
+      ),
+    ),
+    'created' => array(
+      'predicates' => array(
+        0 => 'dc:date',
+        1 => 'dc:created',
+      ),
+      'datatype' => 'xsd:dateTime',
+      'callback' => 'date_iso8601',
+    ),
+    'changed' => array(
+      'predicates' => array(
+        0 => 'dc:modified',
+      ),
+      'datatype' => 'xsd:dateTime',
+      'callback' => 'date_iso8601',
+    ),
+    'body' => array(
+      'predicates' => array(
+        0 => 'content:encoded',
+      ),
+    ),
+    'uid' => array(
+      'predicates' => array(
+        0 => 'sioc:has_creator',
+      ),
+      'type' => 'rel',
+    ),
+    'name' => array(
+      'predicates' => array(
+        0 => 'foaf:name',
+      ),
+    ),
+    'comment_count' => array(
+      'predicates' => array(
+        0 => 'sioc:num_replies',
+      ),
+      'datatype' => 'xsd:integer',
+    ),
+    'last_activity' => array(
+      'predicates' => array(
+        0 => 'sioc:last_activity_date',
+      ),
+      'datatype' => 'xsd:dateTime',
+      'callback' => 'date_iso8601',
+    ),
+  ),
+  'webform' => array(
+    'nid' => 6,
+    'confirmation' => '',
+    'confirmation_format' => NULL,
+    'redirect_url' => '<confirmation>',
+    'status' => 1,
+    'block' => 0,
+    'teaser' => 0,
+    'allow_draft' => 0,
+    'auto_save' => 0,
+    'submit_notice' => 1,
+    'submit_text' => '',
+    'submit_limit' => -1,
+    'submit_interval' => -1,
+    'total_submit_limit' => -1,
+    'total_submit_interval' => -1,
+    'record_exists' => TRUE,
+    'roles' => array(
+      0 => 1,
+      1 => 2,
+    ),
+    'emails' => array(),
+    'components' => array(),
+  ),
+  'cid' => 0,
+  'last_comment_name' => NULL,
+  'last_comment_uid' => 1,
+  'comment_count' => 0,
+  'name' => 'admin',
+  'picture' => 0,
+  'data' => 'b:0;',
+  'date' => '2013-09-09 22:10:37 +0200',
+);
+  $nodes[] = array(
+  'uid' => 1,
   'title' => 'Algemene Voorwaarden',
   'log' => '',
   'status' => 1,
@@ -105,7 +210,7 @@ function bb_default_content_uuid_features_default_content() {
   'tnid' => 0,
   'translate' => 0,
   'uuid' => '9d484b03-dd82-4fbe-bdd6-d7d7c585b581',
-  'revision_uid' => 1,
+  'revision_uid' => 0,
   'body' => array(),
   'rdf_mapping' => array(
     'rdftype' => array(
@@ -185,7 +290,7 @@ function bb_default_content_uuid_features_default_content() {
   'tnid' => 0,
   'translate' => 0,
   'uuid' => 'd46bd6f9-5fb2-4554-aa51-1fe7082a945a',
-  'revision_uid' => 1,
+  'revision_uid' => 0,
   'body' => array(),
   'rdf_mapping' => array(
     'rdftype' => array(
@@ -265,7 +370,7 @@ function bb_default_content_uuid_features_default_content() {
   'tnid' => 0,
   'translate' => 0,
   'uuid' => 'e654687b-e2fb-4cbc-921d-be226e6a7af4',
-  'revision_uid' => 1,
+  'revision_uid' => 0,
   'body' => array(),
   'rdf_mapping' => array(
     'rdftype' => array(
