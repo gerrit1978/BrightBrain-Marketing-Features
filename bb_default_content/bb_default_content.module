@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the BB Default Content feature.
+ */
+
+include_once 'bb_default_content.features.inc';
