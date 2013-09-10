@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the BB Jobs feature.
+ */
+
+include_once 'bb_jobs.features.inc';
