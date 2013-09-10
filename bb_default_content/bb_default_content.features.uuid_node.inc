@@ -25,7 +25,7 @@ function bb_default_content_uuid_features_default_content() {
   'tnid' => 0,
   'translate' => 0,
   'uuid' => '6949ca4d-8fa5-43a3-9485-d531e7180e68',
-  'revision_uid' => 1,
+  'revision_uid' => 0,
   'body' => array(),
   'rdf_mapping' => array(
     'rdftype' => array(
@@ -105,7 +105,7 @@ function bb_default_content_uuid_features_default_content() {
   'tnid' => 0,
   'translate' => 0,
   'uuid' => '6b9721f0-2e5b-4f8a-accf-fe4acd6eb3b3',
-  'revision_uid' => 1,
+  'revision_uid' => 0,
   'body' => array(),
   'rdf_mapping' => array(
     'rdftype' => array(
@@ -314,7 +314,7 @@ function bb_default_content_uuid_features_default_content() {
   'tnid' => 0,
   'translate' => 0,
   'uuid' => '9d484b03-dd82-4fbe-bdd6-d7d7c585b581',
-  'revision_uid' => 1,
+  'revision_uid' => 0,
   'body' => array(),
   'rdf_mapping' => array(
     'rdftype' => array(
@@ -394,7 +394,7 @@ function bb_default_content_uuid_features_default_content() {
   'tnid' => 0,
   'translate' => 0,
   'uuid' => 'd46bd6f9-5fb2-4554-aa51-1fe7082a945a',
-  'revision_uid' => 1,
+  'revision_uid' => 0,
   'body' => array(),
   'rdf_mapping' => array(
     'rdftype' => array(
@@ -474,7 +474,7 @@ function bb_default_content_uuid_features_default_content() {
   'tnid' => 0,
   'translate' => 0,
   'uuid' => 'e654687b-e2fb-4cbc-921d-be226e6a7af4',
-  'revision_uid' => 1,
+  'revision_uid' => 0,
   'body' => array(),
   'rdf_mapping' => array(
     'rdftype' => array(
