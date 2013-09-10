@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the BB Gallery feature.
+ */
+
+include_once 'bb_gallery.features.inc';
