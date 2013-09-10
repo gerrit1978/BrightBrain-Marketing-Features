@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the BB Events feature.
+ */
+
+include_once 'bb_events.features.inc';
