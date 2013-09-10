@@ -1,0 +1,9 @@
+name = BB ContentLijst
+description = Een standaard contentlijst (nodequeue)
+core = 7.x
+package = BrightBrain
+version = 7.x-1.0-beta1
+project = bb_contentlijst
+dependencies[] = fe_nodequeue
+features[fe_nodequeue][] = contentlijst
+features[features_api][] = api:2
