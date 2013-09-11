@@ -1,0 +1,16 @@
+<?php
+/**
+ * @file
+ * Code for the BB Customer Reference feature.
+ */
+
+include_once 'bb_customer_reference.features.inc';
+
+/**
+ * Implements hook_init
+ */
+function bb_customer_reference_init() {
+  $path = drupal_get_path('module', 'bb_customer_reference');
+
+  drupal_add_js($path . '/js/script.js');
+}

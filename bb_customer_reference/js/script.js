@@ -11,10 +11,12 @@
 (function ($, Drupal, window, document, undefined) {
 	
 	// To understand behaviors, see https://drupal.org/node/756722#behaviors
-	Drupal.behaviors.carrouselFlexslider = {
+	Drupal.behaviors.customerReferenceFlexslider = {
 	  attach: function(context, settings) {
-      $('.view-carrousel .view-content').flexslider({
-        animation: "slide"
+      $('.view-klantenreferenties .view-content').flexslider({
+        slideshowSpeed: 5000,  
+        controlNav: false,
+        directionNav: false
       });
 	  }
 	};
