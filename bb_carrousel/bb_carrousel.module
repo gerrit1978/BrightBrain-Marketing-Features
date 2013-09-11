@@ -12,8 +12,5 @@ include_once 'bb_carrousel.features.inc';
 function bb_carrousel_init() {
   $path = drupal_get_path('module', 'bb_carrousel');
 
-  drupal_add_js($path . '/flexslider/jquery.flexslider-min.js');
   drupal_add_js($path . '/js/script.js');
-  
-  drupal_add_css($path . '/flexslider/flexslider.css');
 }
