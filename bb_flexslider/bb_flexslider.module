@@ -1,0 +1,17 @@
+<?php
+
+/**
+ * @file
+ * This module adds flexslider plugin for other modules
+ *
+ */
+
+/**
+ * Implements hook_init
+ */
+function bb_flexslider_init() {
+  $path = drupal_get_path('module', 'bb_flexslider');
+  
+  drupal_add_js($path . '/flexslider/jquery.flexslider-min.js');
+  drupal_add_css($path . '/flexslider/flexslider.css');
+}
